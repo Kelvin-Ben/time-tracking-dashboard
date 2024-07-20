@@ -1,0 +1,136 @@
+*, html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff;
+}
+body {
+  background-color: #0f1424;
+}
+.container {
+  width: auto;
+  height: 99vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid-col-span-3 {
+  grid-column: span 3;
+  /* border: 1px solid red; */
+}
+.title {
+  margin-top: 1rem;
+  font-size: 18px;
+  color: hsl(236, 100%, 87%);
+
+}
+.name {
+  font-size: 2rem;
+  margin: 1rem 0;
+  /* border: 1px solid red; */
+}
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 8px;
+}
+.user-details {
+  background-color: #7078C9;
+  border-radius: 8px;
+  height: 70%;
+  padding: 2rem 2rem;
+}
+.worksheet {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  /* border: 1px solid green; */
+  height: 25%;
+}
+.btn {
+  background: transparent;
+  border: none;
+  color: #7078C9;
+  text-align: start;
+  padding-left: 2rem;
+  height: 2rem;
+}
+.btn-active {
+  color: #fff;
+}
+
+/* styling the card */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.card {
+  display: flex;
+  width: 12rem;
+  height: 13rem;
+  position: relative;
+  background-color: #FF8B64;
+  border-radius: 10px;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  height: 2rem;
+  width: 35%;
+  position: absolute;
+  right: .5rem;
+  opacity: .8;
+  background-color: transparent;
+}
+.card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  background-color: #1C204B;
+  top: 17%;
+  min-width: 100%;
+  height: 85%;
+  border-radius: 8px;
+  padding: 1rem 1rem;
+}
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: .5rem 0; */
+}
+.type {
+  font-size: 1.3rem;
+}
+.dots {
+  width: auto;
+  height: auto;
+  text-align: end;
+  display: flex;
+  cursor: pointer;
+}
+.time {
+  height: 70%;
+}
+.hours {
+  margin: .5rem 0;
+  font-size: 3rem;
+}
+
+.details {
+  font-size: 15px;
+  color: #BBC0FF;
+}
