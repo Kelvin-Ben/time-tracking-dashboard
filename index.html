@@ -6,25 +6,105 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./styles/index.css">
+  <script defer src="./scripts/index.js"></script>
   <title>Time Tracking Dashboard</title>
 </head>
 <body>
   <main class="container">
-    <div class="wrapper">
+    <div class="wrapper-grid">
       <div class="user-profile">
         <div class="user-details">
-          <img src="" alt="user image">
-          <h1 class="title">Reporter</h1>
-          <h2 class="name">Jeremy Robson</h2>
+          <img src="./assets/images/user-icon.svg" alt="user image">
+          <h1 class="title">Report for</h1>
+          <h2 class="name">Jeremy <br> Robson</h2>
         </div>
         <div class="worksheet">
-          <button class="btn-daily">Daily</button>
-          <button class="btn-weekly">Weekly</button>
-          <button class="btn-monthly">Monthly</button>
+          <button class="btn btn-daily btn-active">Daily</button>
+          <button class="btn btn-weekly">Weekly</button>
+          <button class="btn btn-monthly">Monthly</button>
         </div>
       </div>
-      
+      <div class="cards grid-col-span-3">
+        <div class="card">
+          <img src="./assets/images/icon-work.svg" alt="work type logo" class="logo">
+          <div class="card-details">
+            <div class="top">
+              <h3 class="type">work</h3>
+              <span class="dots">...</span>
+            </div>
+            <div class="time">
+              <p class="hours">32hrs</p>
+              <p class="details">Last week - 32hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/images/icon-work.svg" alt="work type logo" class="logo">
+          <div class="card-details">
+            <div class="top">
+              <h3 class="type">work</h3>
+              <span class="dots">...</span>
+            </div>
+            <div class="time">
+              <p class="hours">32hrs</p>
+              <p class="details">Last week - 32hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/images/icon-work.svg" alt="work type logo" class="logo">
+          <div class="card-details">
+            <div class="top">
+              <h3 class="type">work</h3>
+              <span class="dots">...</span>
+            </div>
+            <div class="time">
+              <p class="hours">32hrs</p>
+              <p class="details">Last week - 32hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/images/icon-work.svg" alt="work type logo" class="logo">
+          <div class="card-details">
+            <div class="top">
+              <h3 class="type">work</h3>
+              <span class="dots">...</span>
+            </div>
+            <div class="time">
+              <p class="hours">32hrs</p>
+              <p class="details">Last week - 32hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/images/icon-work.svg" alt="work type logo" class="logo">
+          <div class="card-details">
+            <div class="top">
+              <h3 class="type">work</h3>
+              <span class="dots">...</span>
+            </div>
+            <div class="time">
+              <p class="hours">32hrs</p>
+              <p class="details">Last week - 32hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/images/icon-work.svg" alt="work type logo" class="logo">
+          <div class="card-details">
+            <div class="top">
+              <h3 class="type">work</h3>
+              <span class="dots">...</span>
+            </div>
+            <div class="time">
+              <p class="hours">32hrs</p>
+              <p class="details">Last week - 32hrs</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 </body>
