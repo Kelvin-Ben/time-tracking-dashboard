@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <script defer src="./scripts/index.js"></script>
+    <title>Time Tracking Dashboard</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="wrapper-grid">
+        <div class="user-profile">
+          <div class="user-details">
+            <img
+              src="./assets/images/image-jeremy.png"
+              alt="user image"
+              class="user-icon"
+            />
+            <div class="more-about">
+              <h1 class="title">Report for</h1>
+              <h2 class="name">Jeremy Robson</h2>
+            </div>
+          </div>
+          <div class="worksheet">
+            <button class="btn btn-daily btn-active">daily</button>
+            <button class="btn btn-weekly">weekly</button>
+            <button class="btn btn-monthly">monthly</button>
+          </div>
+        </div>
+        <div class="cards grid-col-span-3"></div>
+      </div>
+    </main>
+  </body>
+</html>
